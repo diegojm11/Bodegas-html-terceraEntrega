@@ -1,0 +1,16 @@
+
+$colorFondo:  rgba(237, 235, 235, 0.821);
+$colorPrimario:  rgba(196, 196, 196, 0.821);
+$colorSecundario: rgb(123, 123, 123); 
+
+$titulos:(
+font-family:'Italiana',
+font-size: 50px, 
+padding: 20px,
+padding-left: 70px,
+color: #171526);
+
+@mixin propiedades ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;    
+}

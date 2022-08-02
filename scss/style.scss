@@ -28,9 +28,6 @@
 
  .menu_index{
         background-color: $colorPrimario;
-    }
-   main {  
-        background-color: $colorFondo;
         ul{
             @include propiedades (100%, 300px);
             list-style: none;
@@ -44,13 +41,17 @@
                     font-size: 50px;
                     font-family:'Italiana', serif ;
                  }
-
-            }
+                }
             
         }
+    }
 
-   }
-
+ main {  
+        background-color: $colorFondo;
+        }
+.mainGeneral{
+  min-height: 100vh;
+}
 .navbar {
     background-color: #212626;
     
@@ -74,7 +75,7 @@
      ul {
         list-style: none;
         li {
-            padding: 50px;
+            padding: 10px;
 
             a {
                 text-decoration: none;
@@ -109,7 +110,9 @@
     p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     grid-area: parrafoNosotros;
-    padding: 50px;}
+    padding-inline: 50px;
+    
+}
     
     div{
         padding: 50px;
@@ -139,7 +142,7 @@
             justify-content: center;
          }
     div{
-        @include propiedades(500px, 300px);
+        @include propiedades(500px, 340px);
         margin: 30px;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -162,7 +165,7 @@
         }
         p{
             font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-size: 18px;
+            font-size: 15px;
             grid-area: vinos_descripcion;
             padding-left: 15px;
             padding-bottom: 40px;
@@ -203,8 +206,8 @@
     
 }
 
-
 .mainContacto{
+    
     h1{
             font-family:map-get($titulos, font-family);
             font-size: map-get($titulos, font-size);
@@ -232,5 +235,8 @@
 
     footer {
         background-color: $colorSecundario;
+        p{
+            font-size: 15px;
+        }
     }
     

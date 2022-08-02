@@ -1,0 +1,18 @@
+Presupuesto:
+
+Objetivo:
+creacion de pagina web desde cero a modo informativa, sin carro de compras, con diseño personalizado segun las necesidades detalladas por el cliente.
+
+Diseñado en HTML, CSS, y framework bootstrap, contiene SEO estandar, e incluye capacitacion.
+
+Se presentara una maqueta en los primeros 5 dias.
+Dia 5 a 10: se acuerda con el cliente colores, fuentes, y solicitud de tipo diseño.
+Dia 10 a 15: Diseño de html para definir estructura
+Dia 15 a 30: Diseño css y bootstrap, Diseño de paginas (Home, Nosotros, Vinos,Clientes,Contactos) para desktop y mobile.
+Dia 30 a 40: prueba del producto, definir ultimos cambios y subida y configuracion del hosting
+
+La pagina web se alojara en un hosting gratuito llamado 000webhost.
+plazo de entrega: 40 dias
+Diseño del sitio y Desarrollo del sitio: $1600 hora (horas aproximadas 160)
+Se abonara un 30% anticipado, un 30% al dia 20 y el resto al terminar, mediante transferencia bancaria.
+

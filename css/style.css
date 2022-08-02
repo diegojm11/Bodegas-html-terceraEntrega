@@ -2,6 +2,10 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+  
+}
+.mainGeneral{
+  min-height: 100vh;
 }
 
 .header_index {
@@ -25,32 +29,32 @@
 }
 .header_index h1 {
   font-family: "Cinzel", serif;
-  font-size: 80px;
+  font-size: 70px;
   color: rgb(215, 215, 215);
 }
 
 .menu_index {
   background-color: rgba(196, 196, 196, 0.821);
 }
-
-main {
-  background-color: rgba(237, 235, 235, 0.821);
-}
-main ul {
+.menu_index ul {
   width: 100%;
   height: 300px;
   list-style: none;
 }
-main ul li :hover {
+.menu_index ul li :hover {
   transform: scale(1.2);
   transition: all 2s;
 }
-main ul li a {
+.menu_index ul li a {
   text-decoration: none;
   color: black;
   font-size: 50px;
   font-family: "Italiana", serif;
 }
+
+main {
+  background-color: rgba(237, 235, 235, 0.821);
+  }
 
 .navbar {
   background-color: #212626;
@@ -74,7 +78,7 @@ main ul li a {
   list-style: none;
 }
 .navbar ul li {
-  padding: 50px;
+  padding: 10px;
 }
 .navbar ul li a {
   text-decoration: none;
@@ -100,7 +104,7 @@ main ul li a {
 .mainNosotros p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   grid-area: parrafoNosotros;
-  padding: 50px;
+  padding-inline: 50px;
 }
 .mainNosotros div {
   padding: 50px;
@@ -126,17 +130,17 @@ main ul li a {
 }
 .mainVinos div {
   width: 500px;
-  height: 300px;
+  height: 340px;
   margin: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 3fr;
   grid-template-areas: "vinos_img vinos_titulo" "vinos_img vinos_descripcion";
-  overflow: hidden;
+  overflow:auto;
   border-style: none;
 }
 .mainVinos div img {
-  width: 250px;
+  width: 100%;
   grid-area: vinos_img;
 }
 .mainVinos div h2 {
@@ -147,7 +151,7 @@ main ul li a {
 }
 .mainVinos div p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   grid-area: vinos_descripcion;
   padding-left: 15px;
   padding-bottom: 40px;
@@ -214,4 +218,13 @@ main ul li a {
 
 footer {
   background-color: rgb(123, 123, 123);
-}/*# sourceMappingURL=style.css.map */
+}
+footer p {
+  font-size: 15px;
+}
+body{
+  min-height: 100vh;
+  
+}
+
+/*# sourceMappingURL=style.css.map */
